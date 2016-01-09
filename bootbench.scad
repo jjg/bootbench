@@ -2,7 +2,7 @@
 cube([40,1.5,10]);
 
 // legs
-translate([5,1.5,0]){
+translate([3.5,1.5,0]){
 	difference(){
 		cube([1.5, 18.5, 10]);
 			translate([-1,21,-2.5]){
@@ -25,13 +25,13 @@ translate([35,1.5,0]){
 }
 
 // shelf
-translate([6.5,8.5,0]){
+translate([5,8.5,0]){
 	cube([30,1.5,10]);
 }
 
 // shelf brace
-translate([5,7.5,-1.5]){
-	cube([31.5,3.5,1.5]);
+translate([3.5,7.5,-1.5]){
+	cube([33,3.5,1.5]);
 }
 
 // leg braces
